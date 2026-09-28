@@ -2,7 +2,7 @@
 
 A Java-based falling sand simulation built with **Java Swing** and a 2D grid. The project simulates different materials with unique movement, interaction, and transformation rules.       |
 
-## Material Interactions
+Material Interactions
 
 The simulation uses conditional rules to create interactions between particles:
 
@@ -16,7 +16,7 @@ The simulation uses conditional rules to create interactions between particles:
 
 Fire also has a randomized lifespan, causing individual fire particles to eventually disappear.
 
-## How It Works
+How It Works
 
 The simulation represents the world as a **2D integer array**, where each cell stores the type of particle occupying that location.
 
@@ -28,13 +28,13 @@ Each simulation step:
 4. The grid is updated.
 5. The Swing display renders the updated grid.
 
-## Controls
+Controls
 
 * Select a particle type using the buttons on the right.
 * Click and drag on the simulation to place particles.
 * Use the **Speed** slider to adjust the simulation speed.
 
-## Technologies
+Technologies
 
 - Java
 - Java Swing
@@ -42,7 +42,7 @@ Each simulation step:
 - Event-driven programming
 - Randomized simulation
 
-## Files
+Files
 
 * `SandLab.java` — simulation logic, particle behavior, and interactions
 * `SandDisplay.java` — graphical interface, particle rendering, controls, and mouse interaction
