@@ -1,7 +1,4 @@
-//Shivani Palanikumar
-//Rhea Reddy
-//SandLab.java
-//APCSA Per 5
+
 //30 January, 2025
 import java.awt.*;
 import java.util.*;
