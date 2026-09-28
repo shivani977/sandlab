@@ -6,13 +6,13 @@ Material Interactions
 
 The simulation uses conditional rules to create interactions between particles:
 
-* **Fire → Wood:** Fire spreads to adjacent wood.
-* **Wood → Ash:** Burning wood eventually becomes ash.
-* **Sand ↔ Water:** Sand can fall through and displace water.
-* **Acid → Materials:** Acid corrodes most materials it touches.
-* **Acid → Metal:** Metal is resistant to acid.
-* **Fire → Ash:** Ash does not burn.
-* **Water → Wood:** Wood acts as a solid obstacle to water.
+* **Fire + Wood:** Fire spreads to adjacent wood.
+* **Wood + Ash:** Burning wood eventually becomes ash.
+* **Sand + Water:** Sand can fall through and displace water.
+* **Acid + Materials:** Acid corrodes most materials it touches.
+* **Acid + Metal:** Metal is resistant to acid.
+* **Fire + Ash:** Ash does not burn.
+* **Water + Wood:** Wood acts as a solid obstacle to water.
 
 Fire also has a randomized lifespan, causing individual fire particles to eventually disappear.
 
@@ -44,6 +44,6 @@ Technologies
 
 Files
 
-* `SandLab.java` — simulation logic, particle behavior, and interactions
-* `SandDisplay.java` — graphical interface, particle rendering, controls, and mouse interaction
+* `SandLab.java` - simulation logic, particle behavior, and interactions
+* `SandDisplay.java` - graphical interface, particle rendering, controls, and mouse interaction
 
